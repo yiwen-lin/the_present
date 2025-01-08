@@ -62,15 +62,15 @@
 	/* Hero Title and Subtitle*/
 	
 	.hero-title {
-		font-size: calc(1rem + 4vw);
-		line-height: calc(1rem + 4vw);
+		font-size: calc(1rem + 4.5vw);
+		line-height: calc(1rem + 4.5vw);
 		font-weight: 500;
 		position: relative;
 		display:block;
 		width:auto;
 		overflow:hidden;
 		color:#000;
-		margin-bottom:20px;	
+		margin-bottom:40px;	
 	}
 	
 	.light-content .hero-title {
@@ -82,9 +82,10 @@
 	}
 	
 	.hero-subtitle {
-		font-size: 20px;		
-		line-height:30px;
-		font-weight:400;
+		font-size: 18px;
+		line-height: 30px;
+		font-weight: 300;
+		letter-spacing: 4px;	
 		position:relative;
 		display:block;
 		overflow:hidden;

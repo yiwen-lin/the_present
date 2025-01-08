@@ -3472,9 +3472,9 @@
 	}
 	
 	.pinned-lists {
-		margin:0;
+		margin:0 auto;
 		display:block;
-		width:100%;
+		width:80%;
 	}
 	
 	.pinned-lists li {
@@ -3487,9 +3487,15 @@
 		color:#000;
 		margin:0;
 	}
+
+	.pinned-lists-ch li {
+		font-size: calc(1rem + 1.3vw);
+    	line-height: calc(1rem + 2.6vw);
+		font-weight:200;
+	}
 	
 	.text-align-center .pinned-lists li {
-		margin:0 auto;
+		margin:20px auto;
 	}
 	
 	.light-content .pinned-lists li , .dark-section .pinned-lists li {

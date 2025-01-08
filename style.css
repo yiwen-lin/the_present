@@ -14,10 +14,10 @@ Primary use:	Showcase Portfolio
 
 
 @font-face {
-    font-family: 'Mona-Sans';
-    src: url('webfonts/Mona-Sans-Medium.woff2') format('woff2'),
-        url('webfonts/Mona-Sans-Medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'Poppins','Noto Sans TC',serif;
+    /* src: url('webfonts/Mona-Sans-Medium.woff2') format('woff2'),
+        url('webfonts/Mona-Sans-Medium.woff') format('woff'); */
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -42,9 +42,10 @@ Primary use:	Showcase Portfolio
 ---------------------------------------------------*/
 
 	html,body{
-		font-family: 'Mona-Sans';
-		font-weight: 500;
-		font-size:14px;
+		font-family:'Poppins','Noto Sans TC',serif;
+		font-weight: 300;
+		font-size: 15px;
+    	letter-spacing: 1px;
 		height:100%;
 		width:100%;
 		color:#777;
@@ -637,8 +638,8 @@ Primary use:	Showcase Portfolio
 	
 	p {
 		font-size:18px;
-		line-height: 28px;
-		font-weight:500;
+		line-height: 32px;
+		font-weight:300;
 		margin-bottom: 20px;
 		color:#777;
 	}
@@ -2347,7 +2348,7 @@ Primary use:	Showcase Portfolio
 	}
 	
 	.button-wrap.right.burger-lines {
-		right: -30px;
+		/* right: -30px; */
 	}
 	
 	.burger-lines #menu-burger {
@@ -2787,7 +2788,7 @@ Primary use:	Showcase Portfolio
 	
 	.button-wrap.right {
 		float:right;
-		right:-26px;	
+		/* right:-26px;	 */
 	}
 	
 	#main .button-wrap.left {
@@ -3939,4 +3940,12 @@ Primary use:	Showcase Portfolio
 	#rotate-device {
 		display:block;
 	}
+}
+
+
+/* 自訂 */
+.font-old-standard {
+	font-family: "Old Standard TT", serif;
+	font-weight: 400;
+	font-style: normal;
 }
