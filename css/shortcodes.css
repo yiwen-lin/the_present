@@ -4008,9 +4008,13 @@
 		margin: 10px 15px;
   	}
 	
+	.pinned-lists {
+		width:90%;
+	}
+
 	.pinned-lists li {
-		font-size: calc(1rem + 5vw);
-		line-height: calc(1rem + 5vw);
+		font-size: calc(1rem + 2.5vw);
+		line-height: calc(1rem + 4.5vw);
 	}
 
 	.snap-slider-captions-wrapper {
